@@ -30,8 +30,9 @@ setup(
         "tabulate==0.7.7",
         "arequests==0.1.1",
     ],
-    entry_points="""
-        [console_scripts]
-        rock=rock_cli.cli:cli
-    """,
+    entry_points={
+        'console_scripts': [
+            'rock = rock_cli.cli:cli',
+        ],
+    },
 )

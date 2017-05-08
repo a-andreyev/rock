@@ -28,7 +28,7 @@ setup(
         "Click==6.4",
         "yamlcfg==0.5.3",
         "tabulate==0.7.5",
-        "arequests==0.1.0",
+        "arequests==0.1.1",
     ],
     entry_points="""
         [console_scripts]

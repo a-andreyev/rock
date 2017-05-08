@@ -27,7 +27,7 @@ setup(
     install_requires=[
         "Click==6.4",
         "yamlcfg==0.5.3",
-        "tabulate==0.7.5",
+        "tabulate==0.7.7",
         "arequests==0.1.1",
     ],
     entry_points="""
